@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            padding: 20px;
+            gap: 40px;
+            background-color: #fff8f4;
+        }
+        .nam>h1{
+            color: #0b2656;
+        }
+        .mane>small{
+            color: gray;
+            font-size: 10px;
+            font-weight: bold;
+        }
+        header>h2{
+            color: #0b2656;
+        }
+        nav{
+            padding: 20px;
+              gap: 40px;
+            display: flex;
+        }
+        nav>a{
+            text-decoration: none;
+            color: black;
+          
+        }
+        .fbtn{
+            width: 120px;
+            height: 40px;
+           background: linear-gradient(to left, #f1480e,#f7a604);
+            color: white;
+            border: none;
+            border-radius: 12px;
+        }
+        .menu{
+            display: none;
+            flex-direction: column;
+            
+        }
+        .bar{
+            height: 6px;
+            margin-top: 4px;
+            width: 28px;
+            background-color: black;
+        }
+          @media screen and (max-width: 600px){
+            .menu{
+                display: flex;
+            }
+            nav{
+                display: none;
+        
+            }
+
+            .fbtn{
+                display: none;
+            }
+            
+
+        }
+
+        .writeups{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            width: 100%;
+            padding: 40px;
+            gap: 60px;
+            background-color: #fff8f4;
+        }
+        .main>h4{
+            color: gray;
+            font-weight: bolder;
+            padding-bottom: 40px;
+            font-weight: lighter;
+        }
+        .main>h1{
+            font-weight: bolder;
+            font-size: 40px;
+            padding-bottom: 40px;
+            color: #0b2656;
+        }
+        .main>p{
+            color: gray;
+        }
+        .sbtn{
+            width: 120px;
+            height: 40px;
+            border: solid, 2px, #0c2c5e;
+            border-radius: 12px;
+           color: #0c2c5e;
+           margin-top: 20px;
+        }
+        .img>img{
+            width: 400px;
+            height: 400px;
+        }
+      /*- herosection responsiveness*/
+      @media screen and (max-width:600px){
+        .writeups{
+            flex-direction: column;   
+        }
+        .main{
+            width: 90%;
+        }
+        .main>h1{
+            font-size: 10p;
+        }
+      
+         }
+            
+
+    
+
+
+    </style>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <div class="name">
+            <div class="nam">
+                <h1>Etrain</h1>
+            </div>
+            <div class="mane">
+              <small>ONLINE EDUCATION</small>
+            </div>
+
+        </div>
+        
+        
+        <nav>
+            <a href="#">About</a>
+            <select name="" id="">
+                <option value="">Pages</option>
+                <option value="">Pages</option>
+                <option value="">Pages</option>
+                <option value="">Pages</option>
+            </select>
+            <a href="#">Courses</a>
+            <a href="#">Blog</a>
+            <a href="#">Pages</a>
+            <a href="#">Contact</a>
+        </nav>
+        <button class="fbtn">Get a Quote</button>
+        <div class="menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+    <!--Section-->
+    <section>
+        <div class="writeups">
+        <div class="main">
+            <h4>EVERY CHILD YEARNS TO LEARN</h4>
+            <h1>MAKING YOUR CHILDS WORLD BETTER</h1>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsam magni nesciunt, <br>quaerat eum magnam, voluptate odit, dolorem <br> praesentium in provident recusandae unde voluptas.</p>
+<button class="fbtn">View Course</button>
+<button class="sbtn">Get Started</button>
+        </div>
+        <div class="img">
+            <img src="books-removebg-preview.png" alt="image">
+        </div>
+        </div>
+    </section>
+
+</body>
+</html>
